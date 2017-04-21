@@ -220,7 +220,7 @@ td{border-width:0 1px;}
 .faico{margin:0; padding:0; list-style:none;}
 .faico li{display:inline-block; float:left; margin:0 2px 0 0; padding:0; line-height:normal;}
 .faico li:last-child{margin-right:0;}
-
+f
 .faico a{display:inline-block; width:30px; height:30px; line-height:30px; font-size:14px; text-align:center;}
 .faico a{color:inherit; background-color:transparent;}
 
@@ -243,7 +243,7 @@ td{border-width:0 1px;}
 /* Colours
 --------------------------------------------------------------------------------------------------------------- */
 body{color:#888888; background-color:#252B34;}
-a{color:#82B440;}
+a{color:#D0D0D0;}
 a:active, a:focus{background:transparent;}/* IE10 + 11 Bugfix - prevents grey background */
 hr, .borderedbox{border-color:#D7D7D7;}
 label span{color:#FF0000; background-color:inherit;}
@@ -251,11 +251,11 @@ input:focus, textarea:focus, *:required:focus{border-color:#82B440;}
 .overlay{color:#FFFFFF; background-color:inherit;}
 .overlay::after{color:inherit; background-color:rgba(0,0,0,.55);}
 
-.btn, .btn.inverse:hover{color:#FFFFFF; background-color:#82B440; border-color:#82B440;}
+.btn, .btn.inverse:hover{color:#FFFFFF; background-color:#005580; border-color:#005580;}
 .btn:hover, .btn.inverse{color:inherit; background-color:transparent; border-color:inherit;}
 
 .icon::after{border-color:#D7D7D7;}
-article:hover .icon::after{border-color:#82B440;}
+article:hover .icon::after{border-color:#ff9900;}
 
 
 /* Rows */
@@ -272,8 +272,8 @@ article:hover .icon::after{border-color:#82B440;}
 
 
 /* Page Intro */
-#pageintro .btn.inverse{color:#82B440; background-color:#FFFFFF; border-color:#FFFFFF;}
-#pageintro .btn.inverse:hover{color:#FFFFFF; background-color:#82B440; border-color:#82B440;}
+#pageintro .btn.inverse{color:#005580; background-color:#FFFFFF; border-color:#FFFFFF;}
+#pageintro .btn.inverse:hover{color:#FFFFFF; background-color:#005580; border-color:#005580;}
 
 
 /* Content Area */
@@ -296,14 +296,14 @@ article:hover .icon::after{border-color:#82B440;}
 
 
 /* Navigation */
-#mainav ul.clear{border-color:#252B34;}
-#mainav li a{color:inherit; background-color:inherit; border-color:#252B34;}
-#mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#82B440; background-color:inherit;}
+#mainav ul.clear{border-color:#005580;}
+#mainav li a{color:inherit; background-color:inherit; border-color:#005580;}
+#mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#ff9900; background-color:inherit;}
 #mainav li li a, #mainav .active li a{color:#FFFFFF; background-color:rgba(0,0,0,.6); border-color:rgba(0,0,0,.6);}
-#mainav li li:hover > a, #mainav .active .active > a{color:#FFFFFF; background-color:#82B440;}
+#mainav li li:hover > a, #mainav .active .active > a{color:#FFFFFF; background-color:#005580;}
 #mainav form select{color:#FFFFFF; background-color:#394251; border-color:#888888;}
 
-#breadcrumb{border-color:#D7D7D7;}
+#breadcrumb{border-color:#ff9900;}
 #breadcrumb a{color:inherit; background-color:inherit;}
 #breadcrumb li:last-child a{}
 
