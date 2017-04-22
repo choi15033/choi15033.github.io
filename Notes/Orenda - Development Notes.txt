@@ -1,0 +1,175 @@
+Orange:#ff9900
+Blue:#005580
+
+Basic HTML Setup:
+<html>
+    <head>
+        <title>Orenda | About Us | Donate</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+        <link rel="shortcut icon" type="image/x-icon" href="/images/favicon" />   
+    </head>
+<body id="top">
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row0">
+  <div id="topbar" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <div class="fl_left">
+      <ul class="nospace inline pushright">
+        <li><i class="fa fa-phone"></i> +65 6465 4272</li>
+        <li><i class="fa fa-envelope-o"></i> orenda.org@gmail.com</li>
+      </ul>
+    </div>
+    <div class="fl_right">
+      <ul class="faico clear">
+        <li><a class="faicon-facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+        <li><a class="faicon-pinterest" href="#"><i class="fa fa-pinterest"></i></a></li>
+        <li><a class="faicon-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+        <li><a class="faicon-dribble" href="#"><i class="fa fa-dribbble"></i></a></li>
+        <li><a class="faicon-linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+        <li><a class="faicon-google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
+        <li><a class="faicon-rss" href="#"><i class="fa fa-rss"></i></a></li>
+      </ul>
+    </div>
+    <!-- ################################################################################################ -->
+  </div>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row1">
+  <header id="header" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <div id="logo" class="fl_left">
+      <h1><a href="../index.html" style="color:#ff9900">Orenda</a></h1>
+    </div>
+    <div id="quickinfo" class="fl_right">
+      <ul class="nospace inline">
+        <li style="color:#ff9900"><strong>Office:</strong><br>
+          +65 6465 4272</li>
+      </ul>
+    </div>
+    <!-- ################################################################################################ -->
+  </header>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row2" style="background-color:#005580">
+  <nav id="mainav" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <ul class="clear">
+      <li><a href="/index.html">Home</a></li>
+      <li><a class="drop" href="#">About Us</a>
+        <ul>
+          <li><a href="mission-statement.html">Mission Statement</a></li>
+          <li><a href="team-intro.html">The Team</a></li>
+        </ul>
+      </li>
+      <li class="active"><a class="drop" href="#">Donate</a>
+        <ul>
+          <li><a href="donation-school.html">To the Schools</a></li>
+          <li><a href="donation-supplier.html">To the Suppliers</a></li>
+        </ul>
+      </li>      
+    </ul>
+    <!-- ################################################################################################ -->
+  </nav>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row3">
+  <div id="breadcrumb" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <ul>
+      <li><a href="/index.html">Home</a></li>
+      <li><a href="#">Donate</a></li>
+      <li><a href="#">To the Schools</a></li>
+    </ul>
+    <!-- ################################################################################################ -->
+  </div>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row3">
+  <main class="hoc container clear"> 
+    <!-- main body -->
+    <!-- ################################################################################################ -->
+    <div class="content"> 
+    </div>
+    <!-- ################################################################################################ -->
+    <!-- / main body -->
+    <div class="clear"></div>
+  </main>
+</div>    
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row4">
+  <footer id="footer" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <div class="one_third first">
+      <h6 class="title" style="color:#ff9900">Contact Us</h6>
+      <ul class="nospace linklist contact">
+        <li style="border-bottom-color:#ff9900"><i class="fa fa-map-marker" style="color:#ff9900"></i>
+          <address>
+         1207 Dover Road, Singapore, 139654
+          </address>
+        </li>
+        <li style="border-bottom-color:#ff9900"><i class="fa fa-phone" style="color:#ff9900"></i> +65 9327 1588<br>
+          +65 8163 0120</li>
+        <li style="border-bottom-color:#ff9900"><i class="fa fa-fax" style="color:#ff9900"></i> +65 6465 4272</li>
+        <li style="border-bottom-color:#ff9900"><i class="fa fa-envelope-o" style="color:#ff9900"></i> orenda.org@gmail.com</li>
+      </ul>
+    </div>
+    <div class="one_third">
+      <h6 class="title" style="color:#ff9900">Subscribe</h6>
+      <p class="btmspace-30">Stay in the loop for upcoming events and to be notified of new schools that require your help.</p>
+      <form method="post" action="#">
+        <fieldset>
+          <legend>Newsletter:</legend>
+          <input class="btmspace-15" type="text" value="" placeholder="Name">
+          <input class="btmspace-15" type="text" value="" placeholder="Email">
+          <button type="submit" value="submit" style="background-color:#ff9900">Submit</button>
+        </fieldset>
+      </form>
+    </div>
+    <div class="one_third">
+      <h6 class="title" style="color:#ff9900">Twitter Feed</h6>
+      <a class="twitter-timeline" data-lang="en" data-width="316" data-height="272" data-theme="light" data-link-color="#ff9900" href="https://twitter.com/Orenda_">Tweets by Orenda_</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+    <!-- ################################################################################################ -->
+  </footer>
+</div>
+    <!-- ################################################################################################ -->
+  </footer>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row5">
+  <div id="copyright" class="hoc clear" style="border-top-color:#ff9900"> 
+    <!-- ################################################################################################ -->
+    <p class="fl_left">Copyright &copy; 2015 - All Rights Reserved - <a href="#">Orenda</a></p>
+    <!-- ################################################################################################ -->
+  </div>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+    <a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+    <!-- JAVASCRIPTS -->
+    <script src="../layout/scripts/jquery.min.js"></script>
+    <script src="../layout/scripts/jquery.backtotop.js"></script>
+    <script src="../layout/scripts/jquery.mobilemenu.js"></script>
+    <!-- IE9 Placeholder Support -->
+    <script src="../layout/scripts/jquery.placeholder.min.js"></script>
+    <!-- / IE9 Placeholder Support -->
+    </body>
+</html>    
+
